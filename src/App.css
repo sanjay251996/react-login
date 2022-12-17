@@ -2,9 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vH;
+}
+
+.loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #61dafb;
+  height: 500px;
+  width: 500px;
+}
+
+.submit {
+  background-color: black;
+  color: white;
+  height: 36px;
+  border-radius: 5px;
+  box-shadow: none;
+  width: 100px;
+  margin-top: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
